@@ -1,4 +1,4 @@
-#35. The Iris data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.
+# 35. The Iris data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.
 # i. Understand the Dataset & cleanup (if required).
 # ii. Build a decision tree classifier to predict the iris plant category? (Use GINI INDEX criteria, use
 # max_depth=4, min_samples_split=2)

@@ -25,6 +25,7 @@ plt.show()
 
 # Encoding categorical data
 df['Gender'] = pd.factorize(df['Gender'])[0] # Male=0, Female=1
+
 # Features and target variable
 X = df[['Gender', 'Age', 'EstimatedSalary']]
 y = df['Purchased']

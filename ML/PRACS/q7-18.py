@@ -76,7 +76,8 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 y_pred = np.clip(y_pred, a_min=0, a_max=None)
 
-rmse = np.sqrt(np.mean((y_test - y_pred) ** 2))
+# rmse = np.sqrt(np.mean((y_test - y_pred) ** 2))
+rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 print(f"Root Mean Squared Error (RMSE): {rmse}")
 
 # 7-10
